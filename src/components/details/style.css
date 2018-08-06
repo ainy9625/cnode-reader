@@ -1,0 +1,14 @@
+li{
+    list-style: none;
+}
+.details{
+    background-color: white;
+    width: 80%;
+    margin:20px auto;
+    padding: 30px;
+    font-size: 15px
+}
+.title{
+    font-size: 23px;
+    font-weight: 900
+}

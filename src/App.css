@@ -1,0 +1,39 @@
+html,body{
+  background-color: #E1E1E1
+}
+.App-logo {
+  float: left;
+  vertical-align: top;
+  margin-top: -8px
+}
+
+.App-header {
+  background-color: #444444;
+  height: 30px;
+  padding: 10px 0 10px 60px;
+  color: white;
+}
+.App-nav{
+  list-style: none;
+  float: right;
+  line-height:8px;
+  font-size: 13px;  
+  margin-right:70px
+}
+.App-nav li{
+  float: left;
+  padding-left:30px;
+}
+.App-search{
+  width:230px;
+  height:27px;
+  background-color: #888888;
+  border-radius:20px;
+  border: none;
+  margin-left:20px;
+  margin-top:2px
+}
+.backIndex{
+  color: white;
+  text-decoration: none
+}
