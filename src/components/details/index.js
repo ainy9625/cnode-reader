@@ -77,7 +77,7 @@ export default class Details extends Component{
         return(
             <div className="details">
                 {/* <button onclick={this.handleClickBack}>回到上一页</button> */}
-                {/* <Items data={this.state.data}/> */}
+            
             
                 {/* {content} */}
                 <div className="title"></div>
