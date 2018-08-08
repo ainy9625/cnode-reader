@@ -2,13 +2,32 @@ li{
     list-style: none;
 }
 .details{
-    background-color: white;
     width: 80%;
     margin:20px auto;
-    padding: 30px;
-    font-size: 15px
+    
 }
 .title{
     font-size: 23px;
-    font-weight: 900
+    font-weight: 900;
+}
+.article{
+    padding: 30px;
+    font-size: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.replies{
+    padding: 30px 80px;
+    font-size: 15px;
+    background-color: white;
+    border:5px solid #c7c0c0;
+}
+.loginname{
+    color:#666666;
+}
+.reply{
+    border-bottom: 1px solid #999;
+}
+.reply img{
+    width: 100%
 }
