@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './cnodejs_light.png';
-import { BrowserRouter as Router, Route, Switch, Link , Redirect } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Link , Redirect } from "react-router-dom";
 import List from "./components/list/index";
 import Details from './components/details/index';
 import './App.css';
@@ -25,11 +25,11 @@ class App extends Component {
           </ul>
         </div>
         <Switch>
-          <Route exact path="/list/:type/:pageNumber/:pageSize*" component={List}></Route>
-          <Route path="/details" component={Details}></Route>
-      
-          <Redirect from="/list" to="/list/ask/1" />
+          <Route exact path="/list/:type/:pageNumber/:pageSize*" component={List} />
+          <Redirect from="/list" to="/list/all/1" />
+          <Route path="/details" component={Details} />
           <Redirect exact path="/" to="/list" />
+        
         </Switch>
        
         </div>
